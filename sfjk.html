@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>menuitem</title>
+        <script>
+            var password="";
+            password=prompt('我告诉你的密码是','');
+            if (password != '我不知道'){
+                alert("密码不正确,无法查看");
+                window.opener=null;
+                window.close();
+            }
+        </script>
+        <style media="screen">
+            .jl{
+                width: 1200px;
+                margin: 0 auto;
+                background:url(images/jl.svg);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="jl">
+
+        </div>
+    </body>
+</html>
