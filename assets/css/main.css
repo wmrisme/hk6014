@@ -1566,7 +1566,7 @@
 
 	body, input, select, textarea {
 		color: #656565;
-		font-family: PingFangSC-Thin, sans-serif;
+		font-family: PingFangSC-Thin, sans-serif,Microsoft YaHei;
 		font-size: 16pt;
 		font-weight: 400;
 		/*letter-spacing:.6px;*/
