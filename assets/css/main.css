@@ -2105,7 +2105,7 @@
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 6em 0;
 		padding-left: 1em;
 	}
 
@@ -2148,6 +2148,7 @@
 				}
 
 		ul.actions {
+			margin-top: 10px;
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
@@ -2317,9 +2318,9 @@
 
 /* Button */
 
-	input[type="submit"],
+	/* input[type="submit"],
 	input[type="reset"],
-	input[type="button"],
+	input[type="button"], */
 	.button {
 		-moz-appearance: none;
 		-webkit-appearance: none;
@@ -2331,7 +2332,7 @@
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #efefef;
+		border: solid 1px rgba(255, 191, 157, 0.1);
 		color: #787878 !important;
 		cursor: pointer;
 		display: inline-block;
@@ -2344,12 +2345,14 @@
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
+		opacity: 0.1;
 	}
 
-		input[type="submit"]:hover,
+		/* input[type="submit"]:hover,
 		input[type="reset"]:hover,
-		input[type="button"]:hover,
+		input[type="button"]:hover, */
 		.button:hover {
+			opacity: 1;
 			border-color: #49bf9d;
 			color: #49bf9d !important;
 		}
