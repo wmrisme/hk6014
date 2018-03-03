@@ -1,0 +1,324 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>晒童书——产品需求文档</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="word.css">
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="stylesheet" href="https://at.alicdn.com/t/font_b74ksjkimm2njyvi.css">
+	</head>
+	<body id="top">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
+				<h1><strong>Hi,&nbsp I'm HK.6014</strong>
+				<br>Welcome To Here~<br />
+				</h1>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2>晒童书——产品需求文档</h2>
+							<p>背景</p>
+						</header>
+						<p style="color:#666">0~14儿童对于读书需求强烈，读书速度快，几天就能读完一本书，读书量大，家长甚至每星期都会给孩子购买新书，孩子喜欢读书是一件非常好的事，但这个过程产生了一个问题，"图书闲置"，孩子读完一本书后立即就转向了下一本书，很少会再去打开它，随着时间的推移，图书价值越来越低，闲置量也会越来越大。
+					</p>
+					</section>
+
+				<!-- Two -->
+					<section id="two">
+						<h3>1.产品概况</h2>
+						<i class="line"></i>
+						<h4>1.1 产品介绍</h4>
+
+						<p>如果能够帮助家长，把这些闲置的图书，拿出来去和别的家长交换就能得到一本新书。而晒童书就是这样的平台，去帮助家长和孩子共享（晒）自己的闲置图书通过交换规则得到一本自己想看但没看过的书，让闲置的图书动起来。</p>
+
+
+						<!-- <h4>如何修改拿到的模板：</h4> -->
+
+						<h4>1.2 产品定位</h4>
+
+						<p>通过"晒"的方式，让闲置的图书动起来。 </p>
+
+
+						<h4>1.3 目标用户</h4>
+
+						<p>0~14岁儿童，家长。</p>
+
+						<h4>1.4 需求分析</h4>
+						<table border="1">
+						  <tr>
+						    <th>主体</th>
+						    <th>场景</th>
+						  </tr>
+						  <tr>
+						    <td>0~14儿童、家长</td>
+						    <td>孩子读书需求强烈，图书闲置率高</td>
+						  </tr>
+						</table>
+						<table border="1">
+						  <tr>
+						    <th>可能遇到的问题</th>
+						    <th>产生的原因</th>
+							<th>目前的解决方式</th>
+						  </tr>
+						  <tr>
+						    <td>需要经常买书</td>
+						    <td>孩子读书量大</td>
+							<td>不断的买书</td>
+						  </tr>
+						  <tr>
+						    <td>图书闲置</td>
+						    <td>孩子读书太快</td>
+							<td>任其闲置</td>
+						  </tr>
+						</table>
+
+						<h4>1.5 需求梳理</h4>
+						<table border="1">
+						  <tr>
+							<th>问题</th>
+							<th>晒童书解决方案</th>
+						  </tr>
+						  <tr>
+							<td>如何分享图书</td>
+							<td>通过晒童书平台发布得到与书相对应的积分</td>
+						  </tr>
+						  <tr>
+							<td>如何得到图书</td>
+							<td>使用发布图书得到的积分去换置图书</td>
+						  </tr>
+						  <tr>
+						   <td>图书的质量</td>
+						   <td>工作人员审核图书内容及新旧程度（残缺，污渍，异味）</td>
+						 </tr>
+						 <tr>
+						   <td>图书的卫生</td>
+						   <td>审核通过后，进行臭氧消毒并过塑处理</td>
+						 </tr>
+						 <tr>
+						   <td>换书地点</td>
+						   <td>以学习为单位</td>
+						 </tr>
+						 <tr>
+						   <td>交换方式</td>
+						   <td>前期在学校设立定期人工点，后期使用智能柜</td>
+						 </tr>
+						 <tr>
+						   <td>图书管理及跟踪</td>
+						   <td>消毒过塑后，贴上内部条形码</td>
+						 </tr>
+						 <tr>
+						   <td>前期平台无图书</td>
+						   <td>购买5000本图书发布到平台上</td>
+						</table>
+
+						<h3>2. 产品架构及业务流程</h3>
+						<h4>2.1 信息架构图</h4>
+						<img src="images/sts/sts1.png" alt="">
+
+						<h4>2.2 业务流程图</h4>
+						<!-- <p class="tips">换入流程</p> -->
+						<img src="images/sts/sts2.png" alt="">
+						<img src="images/sts/sts3.png" alt="">
+						<img src="images/sts/sts4.png" alt="">
+						<img src="images/sts/sts5.png" alt="">
+						<img src="images/sts/sts6.png" alt="">
+						<img src="images/sts/sts7.png" alt="">
+
+						<h3>3. 技术实现</h3>
+						<table border="1">
+						  <tr>
+							<th>实现方式</th>
+							<th>优点</th>
+							<th>缺点</th>
+						  </tr>
+						  <tr>
+							<td>APP</td>
+							<td>
+								1.用户体验优 <br>
+								2.功能丰富
+							</td>
+							<td>
+								1.开发推广成本高 <br>
+								2.周期长
+							</td>
+						  </tr>
+
+						  <tr>
+						   <td>WEB</td>
+						   <td>
+							   1.功能丰富 <br>
+							   2.开发灵活
+						   </td>
+						   <td>
+							   用户体验差
+						   </td>
+						 </tr>
+
+						 <tr>
+						   <td>小程序</td>
+						   <td>
+							   1.开发推广成本低 <br>
+							   2.使用简单，无需下载 <br>
+							   3.用户体验良好
+						   </td>
+						   <td>
+							   功能有限制
+						   </td>
+						 </tr>
+					 </table>
+
+						 <p>综合考虑前期使用小程序开发，周期短，便于推广，成本低。</p>
+
+						 <h3>4. 全局说明</h3>
+						 <h4>4.1 功能权限</h4>
+
+						 <h5>4.1.1首次登录</h5>
+						 <p>
+							 提示家长，选择孩子所在学校，系统自动推荐该学校内的书。 <br>
+							*未选择学校，将根据手机定位，自动定位到最近的学校。
+							提示家长，完善儿童信息，精准推荐书籍。 <br>
+							*可以跳过此步骤，用户后期可在 我的--儿童信息 ，继续完善。
+						 </p>
+
+						<h5>4.1.2首次换书</h5>
+						<p>
+							提示用户，阅读并勾选服务协议，未勾选不可以进行换书流程。 <br>
+						   提示用户先晒书获得积分再来换书，或者直接购买积分。1REM=1分
+						</p>
+
+						<h5>4.1.3晒书</h5>
+						<p>
+							通过三次提示，用形象的方式让用户了解，书籍是否符合标准要求。 <br>
+						  通过扫码书籍ISBN码，系统自动录入图书信息，并算出告知用户可以得到的积分。 <br>
+						 每次晒书不超过4本。
+						</p>
+
+						<h5>4.1.4 首次支付</h5>
+						<p>
+							提示用户设置支付密码，否则无法支付。
+						</p>
+
+						<h4>4.2 交互说明</h4>
+						<img class="erweima" src="images/sts/sts8.png" alt="">
+						<p>扫码二维码，手机体验晒童书原型</p>
+
+							<a href="https://free.modao.cc/app/aee13652136e6067d52239419434ef5ab5c3186d">
+							<p>https://free.modao.cc/app/</p>
+						</a>
+						<p>点击链接，PC端体验晒童书原型</p>
+
+						<h5>4.2.1 首页</h5>
+						<img src="images/sts/sts-app1.png" alt="">
+						<p>
+							1.提示用户通过搜索框选择学校 <br>
+							2.自动定位附近学校，并推荐不超过6个学校方便用户直接选取<br>
+							3.选择完学校后，自动加载该学校的书籍<br>
+							4.搜索框，可以直接搜索学校，书名、作者<br>
+							5.轮播图每周推荐三本好书<br>
+							6.按年龄划分图书种类<br>
+							7.导航ICON 设计时需要两种状态，常规状态和被选中状态<br>
+							8.页面切换动效规则，进入下一级，下级页面向左划入，返回上一级，上级页面向右划入
+						</p>
+
+						<h5>4.2.2书籍详情页</h5>
+						<img src="images/sts/sts-app2.png" alt="">
+						<p>
+							1.用2~5张书籍图片构成轮播图 <br>
+							2.书籍名称后加上 [1-2岁] 字样，帮助用户快速判断筛选图书<br>
+							3.详情文字，包括作者和书籍简介，文字超过两行自动隐藏，点击显示完整段落<br>
+							4.换购此书需要多少积分，用最直观并合理的视觉设计展现<br>
+							5.点击 加入购物车按钮后，提示 "添加购物车成功~"<br>
+							6.加入购物车按钮，设计时需要考虑三种状态，未按下状态，按下状态，已按下状态<br>
+						</p>
+
+						<h5>4.2.3 晒书</h5>
+						<img src="images/sts/sts-app3.png" alt="">
+						<p>
+							1.通过图书小动画演示加问答形式，形象的让用户理解并评估书籍是否符合要求 <br>
+							2.第一个要求，书是否在6成新以上，明显旧的书不符合要求<br>
+							3.第二个要求，书是否存在破损，封面、内页，有破损，会影响阅读体验<br>
+							4.第三个要求，书是否存在污渍异味，污渍会影响阅读的完整性，异味会引起生理不适<br>
+						</p>
+
+						<img src="images/sts/sts-app4.png" alt="">
+						<p>
+							5.	用户做完三个问答以后，进入扫码页面，提示用户将二维码放入框内，点击取消则返回到，问答3页面，点击完成则进去下一个页面，并自动添书籍到列表中，显示书籍基本信息书名、作者、定价，并提示用户可相对应获得的积分 <br>
+							6.	点击继续扫描，返回扫描页，最大添加4本书，加入动效，让从点击到切换这个过程尽量柔和不生硬 <br>
+							7.	点击完成，进入下一个页面
+
+						</p>
+						<img src="images/sts/sts-app5.png" alt="">
+						<p>
+							8.	提示用户，选取领取时间，前期每周两天定点收书换书 <br>
+							9.	使用缩略图，提示用户录入了哪些书，共几本，将获得总计多少的积分<br>
+							10.	确认完成功，提示申请成功，并向告知用户交书地点、时间、交书码，如果用户关掉了这个页面，还可以在 我的 - 我的晒书 中找到
+
+						</p>
+
+						<h5>4.2.4 购物车</h5>
+						<img src="images/sts/sts-app6.png" alt="">
+						<p>
+							1.	显示用户添加到购物车的书籍，长按某个书籍可删除，购物车最多放4本书 <br>
+							2.	展示每本书的基本信息，书名，作者，缩略图，并合计需要花费的积分<br>
+							3.	点击去支付后，进入确认订单页，再次点确认，进入确认支付页面<br>
+							4.	确认支付页面显示，用户剩余的积分，和本次需要花费的积分，点确认跳进入下一级<br>
+							5.	支付成功页面，需要形象的传达出一种高兴的氛围，并告知用户取书地点、时间，取书码
+
+						</p>
+
+						<h5>4.2.5 我的-个人中心</h5>
+						<img src="images/sts/sts-app7.png" alt="">
+						<p>
+							1.	显示基本信息，头像，昵称，积分，点击昵称后的按钮进入基本信息修改页面，包括头像的图片文件上传，昵称，性别，联系方式，支付密码修改 <br>
+							2.	头像默认调取微信头像，图片大小限制在100k内，最大尺寸为500*500px，不是正方形图片将会裁剪或让用户自己拖动选择裁剪。<br>
+							3.	支付密码为6位，修改时需要输入一遍旧密码，输出正确，再设置新密码，并再确认输入一次
+						</p>
+						<img src="images/sts/sts-app8.png" alt="">
+						<p>
+							1.	我的晒书，包含已完成、带收录两种状态的图书，一个订单本书时有，订单号、时间、书名、定价、换购的积分，多本书时，显示订单号、只显示图书缩略图，共计几本书，一共获得的积分、时间 <br>
+							2.	我的订单，包含待支付、待取书、待评价三种状态，一个订单本书时显示，订单号、时间、书名、花费的积分，多本书时，显示订单号、只显示图书缩略图，共计几本书，一共花费的积分、时间 <br>
+							3.	收货地址，包含收货人姓名，手机号，详细地址，可添加、编辑和删除
+
+						</p>
+
+						<br>
+						<br>
+						<br>
+					</section>
+
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<!-- <ul class="icons">
+					<li><a href="https://zhihu.com/people/Axiso" class="icon"><i class="iconfont icon-zhihudianji"></i></a></li>
+					<li><a href="weixin.html" class="icon"><i class="iconfont icon-weixin"></i></a></li>
+					<li><a href="https://www.behance.net/377017880" class="icon"><i class="iconfont icon-behance"></i></a></li>
+					<li><a href="mailto:whkisme@gmail.com" class="icon"><i class="iconfont icon-youjian1"></i></a></li>
+				</ul> -->
+				<ul class="copyright">
+					<li>&copy; Untitled</li><li>Designer: HK.6014</li>
+				</ul>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
